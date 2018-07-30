@@ -1,0 +1,127 @@
+.nav-transition{
+    transition: all 200ms ease;
+}
+
+.transparent{
+    background: transparent;
+}
+
+.chew-gradient{
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+
+.honey-dew-gradient{
+    background: linear-gradient(to right, #43c6ac 0%, #f8ffae 100%);
+}
+
+.rose-colored-lense{
+    background: linear-gradient(to right, #e8cbc0 0%, #636fa4 100%);
+}
+
+.jaipur{
+    background: linear-gradient(to right, #dbe6f6 0%, #c5796d 100%);
+}
+
+.vice-city{
+    background: linear-gradient(to right, #3494e6 0%, #ec6ead 100%);
+}
+
+.radar{
+    background: linear-gradient(to right, #A770EF 0%, #CF8BF3 50%, #FDB99B 100%);
+    
+}
+
+.mountain{
+    background: linear-gradient(to right, #917dbc 0%, #d280be 50%, #ef84b8 100%);
+    opacity: 0.8;
+}
+
+.solo{
+    background: #95b6cf; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #95b6cf, #ea721d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #95b6cf, #ea721d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.duo{
+    background: #6441a5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6441a5, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6441a5, #2a0845); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.squad{
+    background: #6441a5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6441a5, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6441a5, #2a0845); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.kabyle{
+    
+    background: #8e0e00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e0e00, #1f1c18); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e0e00, #1f1c18); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.bighead{
+    
+    background: #c94b4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hazel{
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.kills-text{
+	color : #00bcd4;
+}
+.score-text{
+	color : #e91e63;
+}
+
+.wins-text{
+	color : #be7e00;
+}
+.kd-text{
+    color : #9c27b0;
+}
+.winrate-text{
+    color:#41b057;
+}
+.heure-text{
+    color:#ad6887;
+}
+.puissance4-text{
+	color : #cf1c1c;
+}
+.ombre{
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 17px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skyline{
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("../img/mountain.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-muted{
+    font-size: 12px;
+}
+
+.informations{font-size: 1.5em;}

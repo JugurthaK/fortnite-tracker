@@ -1,0 +1,12 @@
+.item-uncommon {
+    background: #38ef7d;  /* fallback for old browsers */
+}
+.item-rare {
+    background: #28a0de;  /* fallback for old browsers */
+}
+.item-epic {
+    background: #9f39c7;  /* fallback for old browsers */
+}
+.item-legendary {
+    background: #da8229;  /* fallback for old browsers */
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Fortnite Tracker</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Main Navigation-->
+    <!--Navbar-->
+    <nav class="navbar nav-transition navbar-expand-md navbar-dark indigo">
+        <div class="container">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#"></a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro">Accueil
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#realisations">Boutique (A venir)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#futur">Projets</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+                <form class="form-inline waves-light" novalidate>
+                    <div class="md-form mt-0">
+                        <input id="nickname" class="form-control mr-sm-2" type="text" placeholder="Pseudo">
+                    </div>
+                    <button id="btn" class="btn btn-primary" type="submit">Go !</button>
+                </form>
+            </div>
+            <!-- Collapsible content -->
+
+        </div>
+    </nav>
+    <!--/.Navbar-->
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main>
+        <div class="container">
+            <h1 id="pseudo" class="text-center font-weight-bold">Jugurtha</h1>
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="offset-md-2 col-md-8 mb-8">
+
+                    <!--Card-->
+                    <div class="card">
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title">Général
+                                <br>
+                                <small class="text-muted">
+                                    <span id="nbmatch_general">1200</span> Matchs joués
+                                </small>
+                            </h4>
+                            <!--Text-->
+                            <div class="container">
+                                <div class="row text-center">
+                                    <div class="col-md-3">
+                                        <p class="informations">
+                                            <i class="fas fa-crosshairs kills-text"></i>
+                                            <span id="kills_general">120 </span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="informations">
+                                            <i class="fas fa-trophy wins-text"></i>
+                                            <span id="wins_general">120</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="informations">
+                                            <i class="fas fa-percentage winrate-text"></i>
+                                            <span id="winrate_general">12%</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="informations">
+                                            <i class="fas fa-bullseye kd-text"></i>
+                                            <span id="kd_general">1.2 </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="offset-md-2 col-md-4">
+                                        <p class="informations">
+                                            <span id="score">1200</span>
+                                            <i class="fas fa-crown score-text"></i>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="informations">
+                                            <i class="far fa-clock heure-text"></i>
+                                            <span id="temps">2J 2H 22MIN</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+        </div>
+        <hr class="my-4">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-4 col-md-4 text-center">
+                    <i class="fas fa-crosshairs kills-text"></i> Kills
+                    <i class="fas fa-trophy wins-text"></i> Victoires <br>
+                    <i class="fas fa-percentage winrate-text"></i> Winrate
+                    <i class="fas fa-bullseye kd-text"></i> KDA <br>
+                    <i class="fas fa-crown score-text"></i> Score
+                    <i class="far fa-clock heure-text"></i> Heures
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="container">
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-4">
+
+                    <!--Card-->
+                    <div class="card">
+
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="img/solo.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Tete-->
+                            <h4 class="card-title">Solo
+                                <br>
+                                <small class="text-muted">
+                                    <span id="nbmatch_solo">1200</span> Matchs joués
+                                </small>
+                            </h4>
+                            <!--Kills-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="text-right informations">
+                                        <span id="kills_solo">120 </span>
+                                        <i class="fas fa-crosshairs kills-text"></i>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="text-left informations">
+                                        <i class="fas fa-trophy wins-text"></i>
+                                        <span id="wins_solo">120</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/Kills-->
+                            <!--stats-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="text-right informations">
+                                        <i class="fas fa-percentage winrate-text"></i>
+                                        <span id="winrate_solo">12%</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="text-left informations">
+                                        <span id="kd_solo">1.2 </span>
+                                        <i class="fas fa-bullseye kd-text"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/stats-->
+                            <!-- Score -->
+                            <p class="informations">
+                                <span id="score_solo">1200</span>
+                                <i class="fas fa-crown score-text"></i>
+                            </p>
+                            <!-- /Score -->
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-4">
+
+                    <!--Card-->
+                    <div class="card twitch darken-3">
+
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="img/duo.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Tete-->
+                            <h4 class="card-title">Duo
+                                <br>
+                                <small class="text-muted">
+                                    <span id="nbmatch_duo">1200</span> Matchs joués
+                                </small>
+                            </h4>
+                            <!--Kills-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="text-right informations">
+                                        <span id="kills_duo">120 </span>
+                                        <i class="fas fa-crosshairs kills-text"></i>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="text-left informations">
+                                        <i class="fas fa-trophy wins-text"></i>
+                                        <span id="wins_duo">120</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/Kills-->
+                            <!--stats-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="text-right informations">
+                                        <i class="fas fa-percentage winrate-text"></i>
+                                        <span id="winrate_duo">12%</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="text-left informations">
+                                        <span id="kd_duo">1.2 </span>
+                                        <i class="fas fa-bullseye kd-text"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/stats-->
+                            <!-- Score -->
+                            <p class="informations">
+                                <span id="score_duo">1200</span>
+                                <i class="fas fa-crown score-text"></i>
+                            </p>
+                            <!-- /Score -->
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-4">
+
+                    <!--Card-->
+                    <div class="card">
+
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="img/squad.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Tete-->
+                            <h4 class="card-title">Squad
+                                <br>
+                                <small class="text-muted">
+                                    <span id="nbmatch_squad">1200</span> Matchs joués
+                                </small>
+                            </h4>
+                            <!--Kills-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="text-right informations">
+                                        <span id="kills_squad">120 </span>
+                                        <i class="fas fa-crosshairs kills-text"></i>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="text-left informations">
+                                        <i class="fas fa-trophy wins-text"></i>
+                                        <span id="wins_squad">120</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/Kills-->
+                            <!--stats-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="text-right informations">
+                                        <i class="fas fa-percentage winrate-text"></i>
+                                        <span id="winrate_squad">12%</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="text-left informations">
+                                        <span id="kd_squad">1.2 </span>
+                                        <i class="fas fa-bullseye kd-text"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/stats-->
+                            <!-- Score -->
+                            <p class="informations">
+                                <span id="score_squad">1200</span>
+                                <i class="fas fa-crown score-text"></i>
+                            </p>
+                            <!-- /Score -->
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="page-footer font-small blue mt-5">
+
+        <!-- Social buttons -->
+        <div class="white">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 black-text"></h6>
+                    </div>>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        <!--Facebook-->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter cyan-text mr-4"> </i>
+                        </a>
+                        <a class="fb-ic ml-0">
+                            <i class="fab fa-facebook-f blue-text mr-4"> </i>
+                        </a>
+                        <!--Twitter-->
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+    </footer>
+    <!-- Social buttons -->
+
+    <!--Footer Links-->
+    <!--Footer-->
+    <footer>
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">
+            © 2018 Copyright: Fait par
+            <a href="#">KABECHE Jugurtha</a> avec
+            <a href="https://mdbootstrap.com/" target="_blank"> MDB</a>
+        </div>
+        <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+    <!--Footer-->
+
+    <!-- SCRIPTS -->
+    <script src="js/fn/ajax.js"></script>
+    <script src="js/fn/app.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+    </script>
+    <script src="js/smooth-scroll.js"></script>
+</body>
+
+</html>
